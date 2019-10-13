@@ -40,6 +40,8 @@ namespace com.skibitsky.UnityNow
             var uploadFileRequests = new ConcurrentBag<Task>();
             
             var path = EditorUtility.OpenFolderPanel("Select the folder to deploy", "", "");
+
+            Debug.Log("Syncing files...");
             
             Parallel.ForEach(Directory.EnumerateFiles(path, "*", SearchOption.AllDirectories), file =>
             {
