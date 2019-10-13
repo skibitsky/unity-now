@@ -2,18 +2,15 @@ using Newtonsoft.Json;
 
 namespace com.skibitsky.UnityNow
 {
-    public static partial class DeployNow
+    public class DeploymentContent
     {
-        private class DeploymentContent
-        {
-            [JsonProperty("name")]
-            public string Name { get; set; }
+        [JsonProperty("name")]
+        public string Name { get; set; }
 
-            [JsonProperty("version")]
-            public int Version { get; set; }
+        [JsonProperty("version")]
+        public int Version { get; set; }
             
-            [JsonProperty("files")]
-            public DeploymentFileReference[] Files { get; set; }
-        }
+        [JsonProperty("files")]
+        public DeploymentFileReference[] Files { get; set; }
     }
 }
