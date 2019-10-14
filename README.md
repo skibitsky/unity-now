@@ -1,7 +1,9 @@
 <div align="center">
-<img src=".github/logo.png" width="394"></br>
-<strong><span style="font-size:36px;">Unity Now</span></strong><br>
-<h4>Deploy Unity WebGL builds on Zeit Now serverless platform with ease.</h4>
+<img src=".github/logo.png" width="394" align="center"></br>
+<h1 align="center">Unity Now</h1>
+<p align="center">
+Deploy Unity WebGL builds on Zeit Now serverless platform with ease.
+</p>
 </div>
 
 ## Installation
