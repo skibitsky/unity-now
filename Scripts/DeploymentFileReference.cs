@@ -15,6 +15,6 @@ namespace com.skibitsky.UnityNow
 
         [JsonProperty("sha")] public string Checksum => _deploymentFile.Checksum;
 
-        [JsonProperty("size")] public int FileSize => (int)_deploymentFile.FileSize;
+        [JsonProperty("size")] public int FileSize => (int) _deploymentFile.FileSize;
     }
 }
