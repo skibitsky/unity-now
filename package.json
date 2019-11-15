@@ -1,0 +1,16 @@
+{
+  "name": "com.skibitsky.UnityNow",
+  "version": "1.0.0",
+  "displayName": "unity-now",
+  "description": "▲ Zeit Now plugin for Unity. Deploy WebGL builds with ease",
+  "repository": "skibitsky/alfred-timing",
+  "author": {
+    "name": "skibitsky",
+    "email": "gleb@skibitsky.com",
+    "url": "https://skibitsky.com"
+  },
+  "unity": "2018.3",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
