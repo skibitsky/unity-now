@@ -12,7 +12,7 @@ Find the manifest.json file in the Packages folder of your project and edit it t
 ```js
 {
   "dependencies": {
-    "com.skibitsky.UnityNow": "https://github.com/skibitsky/unity-now.git#1.0.0",
+    "com.skibitsky.UnityNow": "https://github.com/skibitsky/unity-now.git#1.0.1",
     ...
   },
 }
