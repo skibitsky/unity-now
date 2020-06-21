@@ -2,21 +2,50 @@
 <img src=".github/logo.png" width="394" align="center"></br>
 <h1 align="center">Unity Now</h1>
 <p align="center">
-Deploy Unity WebGL builds on Zeit Now serverless platform with ease.
+Deploy Unity WebGL builds on Vercel serverless platform with ease.
 </p>
+<a href="https://openupm.com/packages/com.skibitsky.UnityNow/"><img src="https://img.shields.io/npm/v/com.skibitsky.UnityNow?label=openupm&amp;registry_uri=https://package.openupm.com" /></a>
 </div>
 
 ## Installation
-0. Download the latest .unitypackage from [Releases](https://github.com/skibitsky/unity-now/releases)
-1. Import it into your Unity Project
-2. Add your [access token](https://zeit.co/account/tokens) to the **Configure Now** assets (Assets/unity-now/ConfigureNow)
-3. Run Now→ Deploy from the menu bar
+
+### Install via OpenUPM
+
+The package is available on the [openupm registry](https://openupm.com). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli).
+
+```
+openupm add com.skibitsky.unity-now
+```
+
+### Install via Git URL
+
+Open *Packages/manifest.json* with your favorite text editor. Add the following line to the dependencies block.
+
+    {
+        "dependencies": {
+            "com.skibitsky.unity-now": "https://github.com/skibitsky/unity-now/.git"
+        }
+    }
+
+Notice: Unity Package Manager records the current commit to a lock entry of the *manifest.json*. To update to the latest version, change the hash value manually or remove the lock entry to resolve the package.
+
+    "lock": {
+      "com.skibitsky.unity-now": {
+        "revision": "master",
+        "hash": "..."
+      }
+    }
+
+
+## Usage
+0. Add your [access token](https://zeit.co/account/tokens) to the **Configure Now** assets (Assets/unity-now/ConfigureNow)
+1. Run Now→ Deploy from the menu bar
 	<br><img src=".github/screenshot1.png" width="300">
-4. Select your WebGL build
-5. Wait till deployment completes
+2. Select your WebGL build
+3. Wait till deployment completes
 
 ## Configuration
-You can configure Unity Now using **Configure Now** scriptable object. It is located at *Assets/unity-now/ConfigureNow* and contains the following properties:
+You can configure Unity Now using **Configure Now** scriptable object. By default it is located at *Assets/ConfigureNow* and contains the following properties:
 
 | Name | Description |
 | --- | --- |
