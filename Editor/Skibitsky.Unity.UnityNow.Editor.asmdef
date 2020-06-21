@@ -1,0 +1,17 @@
+{
+    "name": "Skibitsky.Unity.UnityNow.Editor",
+    "references": [
+        "Skibitsky.Unity.StaticAssetLoader.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
