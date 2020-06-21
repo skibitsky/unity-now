@@ -38,7 +38,7 @@ Notice: Unity Package Manager records the current commit to a lock entry of the 
 
 
 ## Usage
-0. Add your [access token](https://zeit.co/account/tokens) to the **Configure Now** assets (Assets/unity-now/ConfigureNow)
+0. Add your [access token](https://vercel.com/account/tokens) to the **Configure Now** assets (Assets/ConfigureNow)
 1. Run Now→ Deploy from the menu bar
 	<br><img src=".github/screenshot1.png" width="300">
 2. Select your WebGL build
@@ -49,7 +49,7 @@ You can configure Unity Now using **Configure Now** scriptable object. By defaul
 
 | Name | Description |
 | --- | --- |
-| **Token** | Zeit Now access token. You can generate a new one [here](https://zeit.co/account/tokens) |
+| **Token** | Zeit Now access token. You can generate a new one [here](https://vercel.com/account/tokens) |
 | **Base URL** | Endpoint base URL. You can change it if you need a certain server location. [Read more](https://zeit.co/docs/api/#api-basics/server-specs/origins) |
 | **Copy URL** | If enabled, Unity Now will save the deployment URL to the clipboard after the deployment is complete |
 
