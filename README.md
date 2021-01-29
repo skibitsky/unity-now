@@ -23,7 +23,7 @@ Open *Packages/manifest.json* with your favorite text editor. Add the following 
 
     {
         "dependencies": {
-            "com.skibitsky.unity-now": "https://github.com/skibitsky/unity-now/.git"
+            "com.skibitsky.unity-now": "https://github.com/skibitsky/unity-now.git"
         }
     }
 
