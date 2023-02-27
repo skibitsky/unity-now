@@ -49,7 +49,7 @@ You can configure Unity Now using **Configure Now** scriptable object. By defaul
 
 | Name | Description |
 | --- | --- |
-| **Token** | Zeit Now access token. You can generate a new one [here](https://vercel.com/account/tokens) |
+| **Token** | Vercel access token. You can generate a new one [here](https://vercel.com/account/tokens) |
 | **Base URL** | Endpoint base URL. You can change it if you need a certain server location. [Read more](https://zeit.co/docs/api/#api-basics/server-specs/origins) |
 | **Copy URL** | If enabled, Unity Now will save the deployment URL to the clipboard after the deployment is complete |
 
