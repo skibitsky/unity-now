@@ -1,6 +1,6 @@
 {
   "name": "com.skibitsky.unity-now",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "displayName": "Unity Now",
   "description": "\u25b2 Vercel Now plugin for Unity. Deploy WebGL builds with ease",
   "repository": "skibitsky/unity-now",
